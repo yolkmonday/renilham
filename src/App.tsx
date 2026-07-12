@@ -9,8 +9,11 @@ import EventsSection from './EventsSection'
 import CountdownSection from './CountdownSection'
 import GallerySection from './GallerySection'
 import GiftSection from './GiftSection'
+import RSVPSection from './RSVPSection'
+import WishesSection from './WishesSection'
 import BottomNav from './BottomNav'
 import Footer from './Footer'
+import SectionDivider from './SectionDivider'
 
 function getGuestName(): string | null {
   const params = new URLSearchParams(window.location.search)
@@ -31,13 +34,24 @@ export default function App() {
         <>
           <main className="pb-24 md:pb-0">
             <HeroSection />
+            <SectionDivider />
             <IntroSection />
+            <SectionDivider flip />
             <CoupleSection />
+            <SectionDivider />
             <StorySection />
+            <SectionDivider flip />
             <EventsSection />
+            <SectionDivider />
             <CountdownSection />
+            <SectionDivider flip />
             <GallerySection />
+            <SectionDivider />
             <GiftSection />
+            <SectionDivider flip />
+            <RSVPSection />
+            <SectionDivider />
+            <WishesSection />
           </main>
           <Footer />
           <BottomNav />

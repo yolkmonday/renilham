@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react'
+
 export default function CoupleSection() {
   return (
     <section className="section-pad bg-background">
@@ -19,6 +21,15 @@ export default function CoupleSection() {
               Putra Pertama dari<br />
               <strong className="text-primary">Sutan Sordiman &amp; Mardiyati</strong>
             </p>
+            <a
+              href="https://instagram.com/ilhamsordiman"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 mt-3 text-[13px] font-semibold text-on-surface-variant hover:text-primary transition-colors"
+            >
+              <Icon icon="mdi:instagram" width={16} />
+              @ilhamsordiman
+            </a>
           </div>
         </div>
 
@@ -45,6 +56,15 @@ export default function CoupleSection() {
               Putri ke-4 dari<br />
               <strong className="text-primary">H. Bagindo Sapril Dasman &amp; Hj. Yetty Yuliani</strong>
             </p>
+            <a
+              href="https://instagram.com/rere.gusti"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 mt-3 text-[13px] font-semibold text-on-surface-variant hover:text-primary transition-colors"
+            >
+              <Icon icon="mdi:instagram" width={16} />
+              @rere.gusti
+            </a>
           </div>
         </div>
 

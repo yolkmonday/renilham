@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "renilham-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-12",
+  "d1_databases": [
+    {
+      "binding": "renilham_db",
+      "database_name": "renilham-db",
+      "database_id": "9453df67-f3af-4113-9525-4fcb5d74f0af"
+    }
+  ]
+}

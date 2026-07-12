@@ -1,5 +1,7 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Icon } from '@iconify/react'
+
+const AUDIO_URL = 'https://undanganpyk.com/wp-content/uploads/2026/03/y2mate.com-Nyoman-Paul-Andi-Rianto-The-Way-You-Look-At-Me-Official-Lyric-Video.mp3'
 
 const BG = 'https://undanganpyk.com/wp-content/uploads/2026/07/IMG_1615-20rs-OKE.jpg-scaled.jpeg'
 
@@ -10,8 +12,16 @@ interface Props {
 
 export default function OpeningScreen({ guestName, onOpen }: Props) {
   const [fading, setFading] = useState(false)
+  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const handleOpen = () => {
+    // Play audio on user gesture (required by browsers)
+    const audio = new Audio(AUDIO_URL)
+    audio.loop = true
+    audio.volume = 0.7
+    audio.play().catch(() => {/* autoplay blocked, silently ignore */})
+    audioRef.current = audio
+
     setFading(true)
     setTimeout(onOpen, 700)
   }

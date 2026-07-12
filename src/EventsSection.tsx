@@ -17,7 +17,7 @@ const EVENTS: EventItem[] = [
     day: 'Minggu, 19 Juli 2026',
     time: '08:00 WIB · Selesai',
     location: ['Kediaman Mempelai Wanita', 'Korong Parit, Pauh Kambar'],
-    mapsUrl: '#',
+    mapsUrl: 'https://maps.app.goo.gl/UQ7nhB7YVz2F5hMC9',
   },
   {
     icon: 'mdi:party-popper',
@@ -25,7 +25,7 @@ const EVENTS: EventItem[] = [
     day: 'Minggu, 19 Juli 2026',
     time: '11:00 – 15:00 WIB',
     location: ['Kediaman Mempelai Wanita', 'Korong Parit, Pauh Kambar'],
-    mapsUrl: '#',
+    mapsUrl: 'https://maps.app.goo.gl/UQ7nhB7YVz2F5hMC9',
   },
   {
     icon: 'mdi:silverware-fork-knife',
@@ -34,7 +34,7 @@ const EVENTS: EventItem[] = [
     time: '10:00 WIB · Selesai',
     location: ['Kediaman Mempelai Pria', 'Lantak Mingkudu'],
     highlight: true,
-    mapsUrl: '#',
+    mapsUrl: 'https://maps.app.goo.gl/9mtdj6aG8d7NZ1QCA',
   },
 ]
 
