@@ -60,7 +60,7 @@ export default function WishesSection() {
             onChange={e => setName(e.target.value)}
             maxLength={100}
             required
-            className="w-full px-4 py-3 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors"
+            className="w-full px-4 py-2 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors"
           />
           <textarea
             placeholder="Tulis doa &amp; ucapan untuk Ilham &amp; Reni..."
@@ -69,7 +69,7 @@ export default function WishesSection() {
             maxLength={500}
             required
             rows={4}
-            className="w-full px-4 py-3 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors resize-none"
+            className="w-full px-4 py-2 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors resize-none"
           />
           <button type="submit" disabled={loading} className="btn-gold self-end">
             <Icon icon={submitted ? 'mdi:check' : 'mdi:send'} width={14} />

@@ -62,7 +62,7 @@ export default function RSVPSection() {
               onChange={e => setName(e.target.value)}
               maxLength={100}
               required
-              className="w-full px-4 py-3 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors"
+              className="w-full px-4 py-2 rounded-lg border border-outline-variant bg-surface text-on-surface text-[14px] font-sans focus:outline-none focus:border-secondary transition-colors"
             />
           </div>
 

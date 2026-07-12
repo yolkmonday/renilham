@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none" stroke="#8e706c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+  <!-- Main body -->
+  <rect x="150" y="220" width="500" height="160" />
+
+  <!-- Center gonjong (tallest) -->
+  <polyline points="400,20 340,120 340,220" />
+  <polyline points="400,20 460,120 460,220" />
+  <line x1="340" y1="120" x2="460" y2="120" />
+
+  <!-- Left gonjong -->
+  <polyline points="270,60 220,140 220,220" />
+  <polyline points="270,60 320,140 320,220" />
+  <line x1="220" y1="140" x2="320" y2="140" />
+
+  <!-- Right gonjong -->
+  <polyline points="530,60 480,140 480,220" />
+  <polyline points="530,60 580,140 580,220" />
+  <line x1="480" y1="140" x2="580" y2="140" />
+
+  <!-- Far left gonjong (smaller) -->
+  <polyline points="190,100 155,170 155,220" />
+  <polyline points="190,100 225,170 225,220" />
+
+  <!-- Far right gonjong (smaller) -->
+  <polyline points="610,100 575,170 575,220" />
+  <polyline points="610,100 645,170 645,220" />
+
+  <!-- Door -->
+  <rect x="370" y="300" width="60" height="80" rx="30" />
+
+  <!-- Windows left -->
+  <rect x="190" y="260" width="60" height="50" rx="4" />
+  <line x1="220" y1="260" x2="220" y2="310" />
+  <line x1="190" y1="285" x2="250" y2="285" />
+
+  <!-- Windows right -->
+  <rect x="550" y="260" width="60" height="50" rx="4" />
+  <line x1="580" y1="260" x2="580" y2="310" />
+  <line x1="550" y1="285" x2="610" y2="285" />
+
+  <!-- Decorative carved panels -->
+  <rect x="155" y="220" width="490" height="30" />
+  <line x1="155" y1="235" x2="645" y2="235" stroke-dasharray="8 4" />
+
+  <!-- Base/stairs -->
+  <rect x="130" y="375" width="540" height="8" />
+  <rect x="110" y="380" width="580" height="5" />
+
+  <!-- Stilts / tiang -->
+  <line x1="200" y1="380" x2="200" y2="220" stroke-dasharray="4 3" />
+  <line x1="280" y1="380" x2="280" y2="220" stroke-dasharray="4 3" />
+  <line x1="360" y1="380" x2="360" y2="220" stroke-dasharray="4 3" />
+  <line x1="440" y1="380" x2="440" y2="220" stroke-dasharray="4 3" />
+  <line x1="520" y1="380" x2="520" y2="220" stroke-dasharray="4 3" />
+  <line x1="600" y1="380" x2="600" y2="220" stroke-dasharray="4 3" />
+
+  <!-- Ridge ornaments on gonjong tips -->
+  <circle cx="400" cy="20" r="5" fill="#8e706c" opacity="0.4" />
+  <circle cx="270" cy="60" r="4" fill="#8e706c" opacity="0.4" />
+  <circle cx="530" cy="60" r="4" fill="#8e706c" opacity="0.4" />
+  <circle cx="190" cy="100" r="3" fill="#8e706c" opacity="0.4" />
+  <circle cx="610" cy="100" r="3" fill="#8e706c" opacity="0.4" />
+</svg>
