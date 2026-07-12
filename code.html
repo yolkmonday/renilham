@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="id" style=""><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Cookie&amp;family=Playfair+Display:wght@400;600;700&amp;family=Source+Sans+3:wght@400;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "background": "#fff8f5",
+                      "on-tertiary-fixed": "#1b1d0e",
+                      "on-secondary-container": "#745c00",
+                      "tertiary-container": "#3c3e2d",
+                      "inverse-primary": "#ffb4a8",
+                      "on-tertiary-fixed-variant": "#474836",
+                      "primary-fixed": "#ffdad4",
+                      "on-primary-fixed": "#410000",
+                      "error-container": "#ffdad6",
+                      "surface-bright": "#fff8f5",
+                      "secondary": "#735c00",
+                      "surface-container-low": "#fbf2ed",
+                      "on-tertiary-container": "#a8a992",
+                      "inverse-surface": "#34302c",
+                      "on-primary-fixed-variant": "#8f0f07",
+                      "surface-container-high": "#efe6e2",
+                      "secondary-fixed-dim": "#e9c349",
+                      "on-surface": "#1e1b18",
+                      "surface": "#fff8f5",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "error": "#ba1a1a",
+                      "primary-fixed-dim": "#ffb4a8",
+                      "primary-container": "#800000",
+                      "secondary-fixed": "#ffe088",
+                      "inverse-on-surface": "#f8efea",
+                      "on-tertiary": "#ffffff",
+                      "on-background": "#1e1b18",
+                      "primary": "#570000",
+                      "outline-variant": "#e2bfb9",
+                      "surface-variant": "#e9e1dc",
+                      "outline": "#8e706c",
+                      "on-error-container": "#93000a",
+                      "on-error": "#ffffff",
+                      "surface-dim": "#e1d8d4",
+                      "surface-container-highest": "#e9e1dc",
+                      "on-primary-container": "#ff8371",
+                      "tertiary-fixed": "#e4e4cc",
+                      "surface-tint": "#b22b1d",
+                      "secondary-container": "#fed65b",
+                      "on-secondary-fixed-variant": "#574500",
+                      "on-secondary": "#ffffff",
+                      "on-surface-variant": "#5a413d",
+                      "tertiary-fixed-dim": "#c8c8b0",
+                      "tertiary": "#262818",
+                      "surface-container": "#f5ece7",
+                      "on-secondary-fixed": "#241a00"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-mobile": "20px",
+                      "base": "8px",
+                      "container-max": "1200px",
+                      "gutter": "24px",
+                      "section-gap": "80px"
+              },
+              "fontFamily": {
+                      "label-caps": [
+                              "\"Source Sans 3\""
+                      ],
+                      "headline-md": [
+                              "Playfair Display"
+                      ],
+                      "body-md": [
+                              "\"Source Sans 3\""
+                      ],
+                      "body-lg": [
+                              "\"Source Sans 3\""
+                      ],
+                      "headline-xl-mobile": [
+                              "Playfair Display"
+                      ],
+                      "headline-xl": [
+                              "Playfair Display"
+                      ],
+                      "headline-lg": [
+                              "Playfair Display"
+                      ],
+                      "cookie": ["Cookie", "cursive"]
+              },
+              "fontSize": {
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-xl-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-xl": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      }catch(_e){}</script><meta charset="utf-8"/></head><body class="bg-background text-on-background font-body-md min-h-screen">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-40 bg-background dark:bg-background border-b border-outline-variant/30 flex items-center justify-between px-margin-mobile py-4 transition-opacity duration-300">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed-dim hover:opacity-80 cursor-pointer" data-icon="menu">menu</span>
+<h1 class="font-cookie text-4xl text-primary dark:text-primary-fixed-dim font-bold tracking-tight mt-1">Ilham &amp; Reni</h1>
+</div>
+</header>
+<main class="pb-24">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex flex-col items-center justify-center text-center px-margin-mobile py-section-gap songket-pattern overflow-hidden" id="home">
+<div class="absolute inset-0 z-0 opacity-20 bg-[url('placeholder')] bg-cover bg-center" data-alt="A highly detailed illustration of a traditional Minangkabau Rumah Gadang silhouette set against a soft, cream-colored sky. The style is elegant and minimalist, using deep maroon and subtle gold accents to evoke a sense of heritage and reverence. The lighting is soft and ethereal, perfect for a high-end wedding invitation background."></div>
+<div class="relative z-10 flex flex-col items-center gap-6">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">The Wedding Of</span>
+<div class="flex flex-col items-center">
+<h2 class="font-cookie text-6xl md:text-8xl text-primary font-bold">Ilham &amp; Reni</h2>
+</div>
+<div class="mt-8 flex flex-col items-center gap-2">
+<span class="font-headline-md text-headline-md text-secondary">19 July 2026</span>
+<div class="w-16 h-px bg-secondary-container mt-2"></div>
+</div>
+</div>
+</section>
+<!-- Introduction -->
+<section class="py-section-gap px-margin-mobile text-center max-w-container-max mx-auto">
+<div class="flex flex-col items-center gap-6">
+<p class="font-headline-md text-headline-md text-primary" dir="rtl">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
+<p class="font-body-md text-on-surface-variant italic max-w-2xl">
+                    "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                </p>
+<span class="font-label-caps text-label-caps text-primary">(QS. Ar-Rum: 21)</span>
+</div>
+</section>
+<!-- Couple Profile -->
+<section class="py-section-gap px-margin-mobile bg-surface-container-low">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
+<!-- Groom -->
+<div class="flex flex-col items-center text-center gap-4"><div class="w-48 h-64 md:w-64 md:h-80 relative rounded-t-full overflow-hidden border-2 border-gold p-2"><img alt="Ilham" class="w-full h-full object-cover rounded-t-full filter sepia-[0.1]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfLfnIvB10G9eAdkt7gggFmbaG4wEb4h15Znj3EeuBjXyjleK-tMdfGeT6tyNK2Gr1Cp1T_JoKWwgXe4Ky_FDYA_3uspki-ToGpvbHQWAxRB8kPlXvyLVJvVFtwk9lg1hlJSw8jXE5Y-SrivRDUfaSX8OvAoTU0-7rXKu1MiWoaI3ZDwhMgdwzdCqLYddVl1HWtcw6EdcKvoKdR6OeAJqs8OI7udbM8X7n7PVtVIOPalsDLZi0gx4W"/></div><h3 class="font-cookie text-4xl text-primary font-bold">M. Ilham Sordiman, S.T.</h3><div class="font-body-md text-on-surface-variant"><p class="">Putra Pertama dari</p><p class="font-bold text-primary">Ayah Sutan Sordiman dan Ibu Mardiyati</p></div></div>
+<div class="text-3xl text-secondary font-cookie hidden md:block">&amp;</div>
+<!-- Bride -->
+<div class="flex flex-col items-center text-center gap-4"><div class="w-48 h-64 md:w-64 md:h-80 relative rounded-t-full overflow-hidden border-2 border-gold p-2"><img alt="Reni" class="w-full h-full object-cover rounded-t-full filter sepia-[0.1]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUUFa4WMzt3zss-WiXhwxWCVexzT3Dn_D372zRJb6IeJLJ7_czzUSAHiknc54D0JizAbXabC4_qDQGggF5yKXW9foTMI_dqoUfap2wp-o0SYtnksWAYAb1yM1gMAQC1cHnmw6QcsSccYZ2ix1bFkV53UGsFcaFU0G5mwUzNSK6MDzbG1CuXuXLtkiLLAxqwv7J3SP0RF5ezRPFUg-AFO7NDdI9RLAvBVHZmZpUEsPT67KEd5keYp-V"/></div><h3 class="font-cookie text-4xl text-primary font-bold">Reniva Gusti, S.Ag.</h3><div class="font-body-md text-on-surface-variant"><p class="">Putri ke-4 dari</p><p class="font-bold text-primary">Ayah H. Bagindo Sapril Dasman &amp; Ibu Hj. Yetty Yuliani</p></div></div>
+</div>
+</section><section class="py-section-gap px-margin-mobile bg-background" id="story"><div class="max-w-container-max mx-auto text-center mb-12"><h2 class="font-cookie text-6xl text-primary mb-2">Kisah Kami</h2><div class="w-24 h-px bg-secondary-container mx-auto"></div></div><div class="max-w-2xl mx-auto space-y-12"><div class="text-center"><h3 class="font-cookie text-4xl text-primary mb-4">Awal Pertemuan &amp; Pendekatan</h3><p class="font-body-md text-on-surface-variant">Tidak ada pertemuan yang benar-benar kebetulan. Kami dipertemukan melalui kedua orang tua kami yang telah saling mengenal. Dari sebuah niat baik dan doa keluarga, Allah mempertemukan dua hati dalam satu kisah yang indah. Pada akhir Agustus 2025, kami bertemu untuk pertama kalinya saat ia datang bersilaturahmi ke rumah. Sejak saat itu, komunikasi kami terus terjalin. Kami belajar memahami perbedaan, saling mendukung, serta meyakini bahwa kebersamaan yang dibangun dengan niat baik akan membawa keberkahan.</p></div><div class="text-center"><h3 class="font-cookie text-4xl text-primary mb-4">Lamaran</h3><p class="font-body-md text-on-surface-variant">Bagi kami, cinta bukanlah tentang menemukan seseorang yang sempurna, melainkan tentang dua insan yang memilih untuk saling menerima, saling menjaga, dan bertumbuh bersama dalam suka maupun duka. Dengan keyakinan serta restu dari kedua keluarga, pada bulan April 2026 kami melangsungkan pertunangan sebagai langkah awal menuju masa depan bersama.</p></div><div class="text-center"><h3 class="font-cookie text-4xl text-primary mb-4">Menuju Hari Bahagia</h3><p class="font-body-md text-on-surface-variant">Kini, dengan penuh rasa syukur kepada Allah SWT, kami memantapkan hati untuk mengikat janji suci pernikahan pada 19 Juli 2026. Semoga langkah yang diawali dengan niat baik ini senantiasa dipenuhi cinta, keberkahan, dan kebahagiaan hingga akhir hayat.</p></div></div></section>
+<!-- Events -->
+<section class="py-section-gap px-margin-mobile" id="events">
+<div class="max-w-container-max mx-auto text-center mb-12">
+<h2 class="font-cookie text-6xl text-primary mb-2">Jadwal Acara</h2>
+<div class="w-24 h-px bg-secondary-container mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-container-max mx-auto">
+<!-- Akad -->
+<div class="bg-surface rounded-xl border border-gold p-8 flex flex-col items-center text-center relative overflow-hidden group hover:shadow-lg transition-shadow">
+<div class="absolute top-0 inset-x-0 h-16 songket-pattern opacity-50"></div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 relative z-10" data-icon="favorite">favorite</span>
+<h3 class="font-cookie text-4xl text-primary mb-2">Akad Nikah</h3>
+<p class="font-label-caps text-label-caps text-secondary mb-4">Minggu, 19 Juli 2026</p>
+<p class="font-body-md text-on-surface-variant mb-6">Pukul 08:00 WIB - Selesai</p>
+<p class="font-body-md text-on-surface-variant font-bold mb-6">Kediaman Mempelai Wanita<br/>Korong Parit Pauh Kambar</p>
+<button class="mt-auto px-6 py-2 bg-primary text-on-primary rounded-lg font-label-caps text-label-caps hover:bg-primary-container transition-colors border border-gold flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+                        Google Maps
+                    </button>
+</div>
+<!-- Resepsi 1 -->
+<div class="bg-surface rounded-xl border border-gold p-8 flex flex-col items-center text-center relative overflow-hidden group hover:shadow-lg transition-shadow">
+<div class="absolute top-0 inset-x-0 h-16 songket-pattern opacity-50"></div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 relative z-10" data-icon="celebration">celebration</span>
+<h3 class="font-cookie text-4xl text-primary mb-2">Resepsi 1</h3>
+<p class="font-label-caps text-label-caps text-secondary mb-4">Minggu, 19 Juli 2026</p>
+<p class="font-body-md text-on-surface-variant mb-6">Pukul 11:00 WIB - 15:00 WIB</p>
+<p class="font-body-md text-on-surface-variant font-bold mb-6">Kediaman Mempelai Wanita<br/>Korong Parit Pauh Kambar</p>
+<button class="mt-auto px-6 py-2 bg-primary text-on-primary rounded-lg font-label-caps text-label-caps hover:bg-primary-container transition-colors border border-gold flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+                        Google Maps
+                    </button>
+</div>
+<!-- Resepsi 2 -->
+<div class="bg-surface rounded-xl border border-gold p-8 flex flex-col items-center text-center relative overflow-hidden group hover:shadow-lg transition-shadow md:col-span-2 lg:col-span-1">
+<div class="absolute top-0 inset-x-0 h-16 songket-pattern opacity-50"></div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4 relative z-10" data-icon="restaurant">restaurant</span>
+<h3 class="font-cookie text-4xl text-primary mb-2">Resepsi 2</h3>
+<p class="font-label-caps text-label-caps text-secondary mb-4">Senin, 20 Juli 2026</p>
+<p class="font-body-md text-on-surface-variant mb-6">Pukul 10:00 WIB - Selesai</p>
+<p class="font-body-md text-on-surface-variant font-bold mb-6">Kediaman Mempelai Pria<br/>Lantak mingkudu</p>
+<button class="mt-auto px-6 py-2 bg-primary text-on-primary rounded-lg font-label-caps text-label-caps hover:bg-primary-container transition-colors border border-gold flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+                        Google Maps
+                    </button>
+</div>
+</div>
+</section><section class="py-section-gap px-margin-mobile bg-surface-container" id="countdown">
+<div class="max-w-container-max mx-auto text-center">
+  <span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Resepsi Pihak Laki-Laki</span>
+  <h2 class="font-cookie text-6xl text-primary mt-2 mb-2">Menuju Hari Bahagia</h2>
+  <div class="w-24 h-px bg-secondary-container mx-auto mb-4"></div>
+  <p class="font-body-md text-on-surface-variant mb-2">Senin, 20 Juli 2026 · Pukul 10:00 WIB</p>
+  <p class="font-body-md text-primary font-bold mb-10">Kediaman Mempelai Pria · Lantak Mingkudu</p>
+  <div class="flex justify-center gap-4 md:gap-8" id="countdown-grid">
+    <div class="flex flex-col items-center bg-surface rounded-xl border border-outline-variant/30 px-6 py-5 min-w-[72px] shadow-sm">
+      <span class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-none" id="cd-days">--</span>
+      <span class="font-label-caps text-label-caps text-on-surface-variant mt-2">Hari</span>
+    </div>
+    <div class="flex flex-col items-center bg-surface rounded-xl border border-outline-variant/30 px-6 py-5 min-w-[72px] shadow-sm">
+      <span class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-none" id="cd-hours">--</span>
+      <span class="font-label-caps text-label-caps text-on-surface-variant mt-2">Jam</span>
+    </div>
+    <div class="flex flex-col items-center bg-surface rounded-xl border border-outline-variant/30 px-6 py-5 min-w-[72px] shadow-sm">
+      <span class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-none" id="cd-minutes">--</span>
+      <span class="font-label-caps text-label-caps text-on-surface-variant mt-2">Menit</span>
+    </div>
+    <div class="flex flex-col items-center bg-surface rounded-xl border border-outline-variant/30 px-6 py-5 min-w-[72px] shadow-sm">
+      <span class="font-headline-xl-mobile text-headline-xl-mobile text-primary font-bold leading-none" id="cd-seconds">--</span>
+      <span class="font-label-caps text-label-caps text-on-surface-variant mt-2">Detik</span>
+    </div>
+  </div>
+  <p class="font-body-md text-on-surface-variant mt-8 italic hidden" id="cd-done">Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. 🤲</p>
+</div>
+<script>
+  (function() {
+    // Target: Monday 20 July 2026 10:00 WIB (UTC+7)
+    const target = new Date('2026-07-20T10:00:00+07:00');
+
+    function pad(n) {
+      return String(n).padStart(2, '0');
+    }
+
+    function tick() {
+      const now = new Date();
+      const diff = target - now;
+
+      if (diff <= 0) {
+        document.getElementById('countdown-grid').classList.add('hidden');
+        document.getElementById('cd-done').classList.remove('hidden');
+        return;
+      }
+
+      const days    = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours   = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById('cd-days').textContent    = pad(days);
+      document.getElementById('cd-hours').textContent   = pad(hours);
+      document.getElementById('cd-minutes').textContent = pad(minutes);
+      document.getElementById('cd-seconds').textContent = pad(seconds);
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  })();
+</script>
+</section>
+<section class="py-section-gap px-margin-mobile bg-surface-container-low" id="rsvp"><div class="max-w-container-max mx-auto text-center mb-12"><h2 class="font-cookie text-6xl text-primary mb-2">Wedding Gift</h2><div class="w-24 h-px bg-secondary-container mx-auto mb-8"></div><p class="max-w-2xl mx-auto font-body-md text-on-surface-variant">Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk mempelai, dapat melalui virtual account atau E-wallet</p></div><div class="max-w-2xl mx-auto space-y-8"><div class="bg-surface p-8 rounded-xl border border-outline-variant/30 text-center flex flex-col items-center gap-4 shadow-sm"><img alt="BCA Logo" class="h-12 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa0Z4Oc7hTnqC_p-xFMjoGOwNcj4dyA2JYh_T5OGfqd-iirq7FCSK1bdikWbsNQiS1Jtbm0--jpQqFPLKA5Yma1UICiRBPaNH8Auk1E6AOBF6Ev4gfhhY6aDWPo51qlEf-lxyvh-_ofsO_bqgVUEL_1lSn4EpgK2bcR-D1iUDXGOBcvQxW9keno_qfXIEoPg-RL8coYyQKjB6Pf7waW4vQwkSad5U9lRfYmCdj1QPwEN4KjUU8QonN"/><div class="space-y-1"><p class="font-cookie text-3xl text-on-surface">A.N Ilham Sordiman</p><p class="text-2xl font-body-md text-on-surface-variant">0343278362</p></div><button class="mt-4 px-6 py-2 bg-tertiary text-on-tertiary rounded-full font-label-caps flex items-center gap-2 hover:opacity-90 transition-opacity"><span class="material-symbols-outlined text-sm">content_copy</span> Salin Rekening</button></div><div class="bg-surface p-8 rounded-xl border border-outline-variant/30 text-center flex flex-col items-center gap-4 shadow-sm"><img alt="BCA Logo" class="h-12 mb-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2CovfXeSljbZIEQN2F77cnzuNetUOm6e8G28GtQPmdtpc86A0V69kG-Sd82Nyf4JeyZ7wR7I5Iu3Pj9DYvnXRaKey4jU1fKlFRjbKCmZufAXZhpLU6_-q9QN_txdaNI-oBRSpdgOIvKKhCI6UwjUJHfr2SgxrKe5APl0Ndq4Tosb7qZJs21v2BtGEQrAIIkoivD9xNA-EWTcBT3giRUYyV8KqgbgAD7OaMYfiRpxfIrAAkIb4N89j"/><div class="space-y-1"><p class="font-cookie text-3xl text-on-surface">A.N Reniva Gusti</p><p class="text-2xl font-body-md text-on-surface-variant">6241470030</p></div><button class="mt-4 px-6 py-2 bg-tertiary text-on-tertiary rounded-full font-label-caps flex items-center gap-2 hover:opacity-90 transition-opacity"><span class="material-symbols-outlined text-sm">content_copy</span> Salin Rekening</button></div></div></section>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 py-3 bg-surface-container border-t border-outline-variant/50 shadow-sm rounded-t-full">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-container/50 scale-95 active:scale-90 transition-transform" href="#home">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-caps text-label-caps mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 scale-95 active:scale-90 transition-transform" href="#events">
+<span class="material-symbols-outlined" data-icon="event" data-weight="fill">event</span>
+<span class="font-label-caps text-label-caps mt-1">Events</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-container/50 scale-95 active:scale-90 transition-transform" href="#story">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-caps text-label-caps mt-1">Story</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-secondary-container/50 scale-95 active:scale-90 transition-transform" href="#rsvp">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="font-label-caps text-label-caps mt-1">RSVP</span>
+</a>
+</nav>
+</main>
+<!-- Footer -->
+<footer class="w-full py-section-gap flex flex-col items-center justify-center space-y-4 px-margin-mobile text-center bg-surface-container-highest dark:bg-tertiary-container text-on-surface dark:text-on-tertiary-container border-t border-secondary/20 font-body-md text-body-md pb-32 md:pb-section-gap"><p class="font-cookie text-3xl text-primary italic mb-4">"Adat Basandi Syarak, Syarak Basandi Kitabullah."</p>
+<h2 class="font-cookie text-5xl text-primary">Ilham &amp; Reni</h2>
+<div class="flex gap-6">
+<span class="text-on-surface-variant hover:text-secondary transition-colors cursor-pointer">Facebook</span>
+<span class="text-on-surface-variant hover:text-secondary transition-colors cursor-pointer">Instagram</span>
+<span class="text-on-surface-variant hover:text-secondary transition-colors cursor-pointer">WhatsApp</span>
+</div>
+<p class="text-on-surface-variant mt-4">© 2024 Ilham &amp; Reni. All Rights Reserved.</p>
+</footer>
+</body></html>
