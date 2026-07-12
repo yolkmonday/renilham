@@ -9,8 +9,7 @@ import EventsSection from './EventsSection'
 import CountdownSection from './CountdownSection'
 import GallerySection from './GallerySection'
 import GiftSection from './GiftSection'
-import RSVPSection from './RSVPSection'
-import WishesSection from './WishesSection'
+import WishesRSVPSection from './WishesRSVPSection'
 import BottomNav from './BottomNav'
 import Footer from './Footer'
 import SectionDivider from './SectionDivider'
@@ -49,9 +48,7 @@ export default function App() {
             <SectionDivider />
             <GiftSection />
             <SectionDivider flip />
-            <RSVPSection />
-            <SectionDivider />
-            <WishesSection />
+            <WishesRSVPSection />
           </main>
           <Footer />
           <BottomNav />
